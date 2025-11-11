@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>記録帳</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1 id="main-title">今日の日記 & ToDoリスト</h1>
+    <a href="calendar.html" class="back-link">← カレンダーに戻る</a>
+    <section class="todo-section">
+        <h2>タスク</h2>
+        <input type="text" id="todo-input" placeholder="タスクを入力">
+        <button id="add-button">追加</button>
+        <ul id="todo-list">
+            </ul>
+    </section>
+
+    <section class="diary-section">
+        <h2>日記</h2>
+        <textarea id="diary-textarea" rows="10" placeholder="どんな1日だったかな"></textarea>
+        <button id="save-button">保存する</button>
+    </section>
+
+    <script src="script.js"></script>
+    <div id="toast-notification"></div>
+
+</body>
+</html>
